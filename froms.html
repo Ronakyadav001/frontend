@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="uname">Enter name:</label>
+        <input type="text" name="name1" id="uname" size="60" maxlength="20" placeholder="Enter your First name" required>
+        <br><br>
+
+        <label for="pass">Enter Password:</label>
+        <input type="password" name="pass" id="pass" placeholder="Enter password" required>
+        <br><br>
+        <label for="email">Enter email:</label>
+        <input type="email" name="email1" id="email" size="60" maxlength="100" placeholder="Enter your gamil id" required>
+        <br><br>
+
+        <label for="feedback">Enter Feedback:</label>
+        <textarea name="feedback" id="feedback" rows="7" cols="50">Positive review</textarea>
+
+        <br><br>
+
+        <label for="hobby">Choose your hobby:</label>
+        <input type="checkbox" name="hobby" id="hobby" value="cook" checked>cooking
+        <input type="checkbox" name="hobby" id="hobby" value="read">reading
+        <input type="checkbox" name="hobby" id="hobby" value="dance">dancing
+        <input type="checkbox" name="hobby" id="hobby" value="sing">singing
+
+        <br><br>
+
+        <label for="degree">Choose your Degree:</label>
+        <input type="radio" name="degree" id="btech" checked>
+        <label for="btech">B.tech</label>
+        <input type="radio" name="degree" id="BA" >
+        <label for="BA">BA</label>
+        <input type="radio" name="degree" id="BCA" >
+        <label for="BCA">BCA</label>
+        <input type="radio" name="degree" id="BSC" >
+        <label for="BSC">BSC</label>
+
+        <br><br>
+
+        <label for="statesel">Select state:</label>
+        <select name="statesel" id="statesel" size="2" multiple>
+            <option value="state">Choose your state</option>
+            <option value="punjab">punjab</option>
+            <option value="haryana">haryana</option>
+            <option value="sikkim">sikkim</option>
+            <option value="jammu & kashmir">jammu & kashmir</option>
+
+
+        </select>
+
+        <br><br>
+
+        <label for="filesel">Choose file:</label>
+        <input type="file" name="filesel" id="filesel">
+
+        <br><br>
+       
+
+        <input type="submit" name="submitform" id="submitform" value="Submit Form">
+        <input type="reset" name="resetform" id="resetform" value="resetform">
+        <br><br>
+        <input type="image" name="imgbtn" id="imgbtn" src="image\photo.png" width="100" height="100">
+
+    </form>
+</body>
+</html>

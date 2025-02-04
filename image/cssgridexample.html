@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .container{
+            background-color: pink;
+            border: 5px purple solid;
+            padding:20px;
+            display: grid;
+            /* grid-template-columns: 10% auto 50%;
+            grid-template-rows: 150px 200px; */
+            grid-template: 100px 200px/auto auto auto;
+            grid-row-gap:20px;
+        }
+        .item{
+            border:2px green solid;
+            padding:10px;
+            color:blue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: lightgreen;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-column:shorthand;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1">Famous Dishes Of India/div>
+        <div class="item" id="'i2">Image 1</div>
+        <div class="item">Image 2</div>
+        <div class="item">Image 3</div>
+        <div class="item">Image 4</div>
+        <div class="item" id="i5">Image 5</div>
+        <div class="item" >passage of Image 5</div>
+        
+</body>
+</html>
